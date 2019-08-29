@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Full height</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    footer {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      width: 100%;
+    }
+    html {
+      height: 100%;
+    }
+    header {
+      min-height: 80px;
+    }
+    .mainheader {
+      line-height: 80px;
+    }
+
+    body {
+      min-height: 100%;
+      display: grid;
+      grid-template-rows: 1fr auto;
+    }
+    p,
+    h1 {
+      margin-left: 2vw;
+      margin-right: 2vw;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="mainheader">HEADER</h1>
+      </header>
+
+      <main>
+        <h1>MAIN</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur,
+          in modi! Sed modi eius aliquid deserunt, in reprehenderit tempore
+          reiciendis ad pariatur exercitationem hic porro, quaerat animi,
+          consectetur expedita atque!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          molestiae mollitia debitis eaque iusto sapiente a impedit! Cum
+          deleniti id, quae ullam aliquam obcaecati qui et cumque saepe
+          exercitationem ad.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem
+          tempora repellendus nemo vitae unde iure nulla tenetur. Commodi
+          tenetur ullam accusamus architecto est culpa ea repellat velit quas
+          iusto!
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem officia
+          molestiae et nesciunt quasi recusandae iusto doloremque praesentium
+          similique, consectetur fugiat commodi obcaecati soluta ab laudantium
+          maxime eaque quaerat voluptatum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          amet quae iste similique, dolorum nihil consectetur, quidem soluta
+          autem ducimus commodi non? Voluptate optio modi quam explicabo minus,
+          recusandae repellat.
+        </p>
+      </main>
+    </div>
+    <footer class="footer">
+      <h1>FOOTER</h1>
+      <p>Copyrighted 2019</p>
+    </footer>
+    <!-- TODO: Add HTML structure, with header, main (with a bit of content), and footer -->
+  </body>
+</html>
