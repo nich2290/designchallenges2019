@@ -1,0 +1,70 @@
+body {
+  background: #efefef;
+}
+
+.card-wrapper {
+  padding: 0 30px;
+}
+
+.card {
+  margin: 4em auto;
+  max-width: 350px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  background: #fff;
+}
+
+p {
+  margin: 3vh 6vh 3vh 6vh;
+  
+}
+
+.image {
+  width: 100%;
+}
+
+.icon {
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+  background: #efefef;
+  border: 2px solid rgba(195, 155, 95, 0.5);
+  box-shadow: 0 0 0 5px #fff;
+  justify-self: center;
+  grid-area: 2 / 1 / span 2 / -1;
+  
+}
+
+.icon svg {
+  fill: hsl(47, 3%, 42%);
+  transform: rotate (-45deg) translateY (-3px);
+}
+.image, .icon {
+  order: -1;
+}
+.image {
+  grid-area 1 / 1 / span 2 / -1;
+}
+.icon {
+  transform: rotate(45deg);
+}
+.icon svg {
+  fill hsl(47, 3%, 42%);
+}
+body {
+  margin: 0;
+}
+
+h2 {
+  padding: 1em 1em 0;
+}
+h5 {
+  padding: 0 1em;
+}
+.content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-auto-rows: auto;
+  
+  text-align: center;
+}
